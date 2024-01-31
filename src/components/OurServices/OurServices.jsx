@@ -16,11 +16,12 @@ const OurServices = () => {
                             />
                         </div>
                         <div className="services-text d-flex flex-column justify-content-center align-items-center">
-                            <h3 aria-label="Service Title">RECOGIDA</h3>
+                            <h3 aria-label="Service Title">PROBLEMAS EMOCIONALES</h3>
                             <p aria-label="Service Description">
-                                Nos desplazamos hasta tu clínica para la recogida del instrumental. El horario será acordado
-                                previamente para no alterar la actividad diaria de la consulta. Recogeremos el instrumental
-                                utilizado en paquetes proporcionados por InstruSteril, identificados con el nombre de la clínica de origen.
+                                Las emociones son un mundo muy complejo. Si sientes que tus emociones te
+                                desbordan o que no acabas de entender qué te pasa, quizás es buen momento para empezar a
+                                trabajar en tu gestión emocional. Esto pasa por aprender a identificar, expresar, entender y
+                                regular aquello que estás sintiendo.
                             </p>
                         </div>
                     </Col>
@@ -34,10 +35,12 @@ const OurServices = () => {
                             />
                         </div>
                         <div className="services-text d-flex flex-column justify-content-center align-items-center">
-                            <h3 aria-label="Service Title">REVISIÓN Y REPOSICIÓN</h3>
+                            <h3 aria-label="Service Title">TRASTORNOS DE LA CONDUCTA ALIMENTARIA</h3>
                             <p aria-label="Service Description">
-                                Nos encargamos de la revisión del instrumental. En el proceso de limpieza manual, lubricamos las piezas móviles con aceites especiales para nuestro autoclave, así alargamos la durabilidad del instrumental. En caso de anomalías, reemplazamos la pieza dañada, bajo aceptación de presupuesto.
-                            </p>
+                                A veces nuestra relación con la comida o con nuestro cuerpo puede no ser todo lo
+                                saludable que podría ser. Si has empezado a notar que tu relación con la comida o tu cuerpo se
+                                basa en conductas no saludables, te animo a que des el paso de cuidarte. Yo estaré contigo
+                                para acompañarte en este proceso.                            </p>
                         </div>
                     </Col>
                     <Col xs="12" lg="5" className="text-center" role="article">
@@ -50,10 +53,11 @@ const OurServices = () => {
                             />
                         </div>
                         <div className="services-text d-flex flex-column justify-content-center align-items-center">
-                            <h3 aria-label="Service Title">ESTERILIZADO Y EMPAQUETADO</h3>
+                            <h3 aria-label="Service Title">ANSIEDAD</h3>
                             <p aria-label="Service Description">
-                                El proceso de esterilización se realiza con nuestro autoclave de calor húmedo, con etiquetado del proceso, y su doble empaquetado con la identificación de la clínica correspondiente.
-                            </p>
+                                En esta vida donde todo va demasiado rápido, hemos aceptado a la ansiedad como
+                                acompañante, pero no tiene por qué ser así. Aprender cómo funciona la ansiedad nos permite
+                                utilizarla para nuestro beneficio. No dejes que la ansiedad controle tu vida.                            </p>
                         </div>
                     </Col>
                     <Col xs="12" lg="5" className="text-center" role="article">
@@ -66,10 +70,18 @@ const OurServices = () => {
                             />
                         </div>
                         <div className="services-text d-flex flex-column justify-content-center align-items-center">
-                            <h3 aria-label="Service Title">ENTREGA</h3>
+                            <h3 aria-label="Service Title">MÁS ESPECIALIDADES</h3>
                             <p aria-label="Service Description">
-                                Se realiza de nuevo en la propia clínica, se entrega en un paquete sellado e identificado y proporcionamos material para almacenar el instrumental ya utilizado y así tenerlo preparado para su próxima recogida.
-                            </p>
+                                Duelo
+                                - ⁠Autoestima
+                                - ⁠Depresión
+                                - ⁠Problemas de pareja
+                                - ⁠Rupturas
+                                - ⁠Apatía
+                                - ⁠Cambios vitales
+                                - ⁠Crecimiento personal
+                                - ⁠Trastornos del control de impulso
+                                - ⁠Adicción tabaco                            </p>
                         </div>
                     </Col>
                 </Row>

@@ -6,11 +6,16 @@
 }
 
 
-.hero-title h1 {
+.hero-title h1,
+.hero-title h2 {
     font-family: 'Josefin Sans', sans-serif;
     font-weight: 700;
-    font-size: 46px;
+    font-size: 42px;
     color: rgb(44, 44, 44);
+}
+
+.hero-title h2 {
+    padding-top: 20px;
 }
 
 .hero-logo {
@@ -37,6 +42,11 @@
     color: white !important;
     background-color: #79b1ff;
     cursor: pointer;
+}
+
+.contact-us-form-button button img {
+    width: 25px;
+    margin-right: 10px;
 }
 
 .hero {

@@ -15,17 +15,21 @@ const AboutUs = () => {
                             />
                         </Col>
                         <Col lg="6" xs="12">
-                            <h3>Quiénes Somos</h3>
+                            <h3>Sobre mí</h3>
                             <p>
-                                Somos una empresa en Valencia, especializada en la esterilización
-                                del instrumental quirúrgico empleado en las clínicas y consultas
-                                médicas.
+                                ¡Hola! Soy Cristina Rius, psicóloga sanitaria, con experiencia en el ámbito
+                                clínico y social.
                             </p>
                             <p>
-                                Además llevamos a cabo rigurosas revisiones y nos encargamos de
-                                reemplazar el instrumental deteriorado con el objetivo de asegurar a
-                                nuestros clientes y a sus pacientes una seguridad y calidad óptima.
+                                Trabajo desde un enfoque integrador. ¿Esto qué quiere decir? Que adapto las herramientas y
+                                técnicas que he ido adquiriendo en mis años de formación a la persona que tengo delante. Aun
+                                así, las corrientes en las que me baso son la terapia cognitivo conductual, la terapia sistémica y
+                                las terapias contextuales y de tercera generación.
                             </p>
+                            <p>                            Ofrezco servicios de terapia en modalidad presencial y online.
+                            </p>
+
+
                         </Col>
                     </Row>
                 </section>

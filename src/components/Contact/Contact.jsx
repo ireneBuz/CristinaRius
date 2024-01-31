@@ -24,33 +24,33 @@ const Contact = () => {
                             <Col xs="12" lg="12" className="contact-title text-center">
                                 <h1>Contacto</h1>
                                 <h2>
-                                    <a href='https://api.whatsapp.com/send?phone=624092966'>
+                                    <a href='https://api.whatsapp.com/send?phone=611851822'>
                                         <img
                                             src="https://res.cloudinary.com/dbtmrinwa/image/upload/f_auto,q_auto/ynpdtsaqljmrrf3iuuwh"
                                             alt="Phone Icon"
                                             className="contact-phone-icon"
                                         />
                                     </a>
-                                    <a href="tel:+34624092966">624 092 966</a>
+                                    <a href="tel:+34611851822">611 851 822</a>
                                 </h2>
                                 <h2>
-                                    <a href='https://api.whatsapp.com/send?phone=624092966'> <img
+                                    <a href='https://api.whatsapp.com/send?phone=611851822'> <img
                                         src="https://res.cloudinary.com/dbtmrinwa/image/upload/f_auto,q_auto/er26xxeyhz5bysgkvpgw"
                                         alt="Whatsapp Icon"
                                         className="contact-whatsapp-icon"
                                     /></a>
-                                    <a href="https://api.whatsapp.com/send?phone=624092966">WhatsApp</a>
+                                    <a href="https://api.whatsapp.com/send?phone=611851822">WhatsApp</a>
                                 </h2>
 
                                 <h2>
-                                    <a href='mailto:info@instrusteril.es'>
+                                    <a href='mailto:cristinariusverduguez@gmail.com'>
                                         <img
                                             src="https://res.cloudinary.com/dbtmrinwa/image/upload/f_auto,q_auto/sfqupboic0b9xzboktab"
                                             alt="Email Icon"
                                             className="contact-email-icon"
                                         />
                                     </a>
-                                    <a href="mailto:info@instrusteril.es">info@instrusteril.es</a>
+                                    <a href="mailto:cristinariusverduguez@gmail.com">cristinariusverduguez@gmail.com</a>
                                 </h2>
 
                                 <div>

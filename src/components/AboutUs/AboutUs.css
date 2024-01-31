@@ -1,4 +1,6 @@
 .about-us {
+    display: flex;
+    align-items: center;
     font-family: 'Josefin Sans', sans-serif;
     box-shadow: -5px 0px 30px rgba(146, 146, 146, 0.6);
     border-radius: 20px;
@@ -7,7 +9,7 @@
 
 .about-us h3 {
     font-size: 40px;
-    padding-top: 80px;
+    padding-top: 75px;
     padding-left: 30px;
     font-weight: 700;
     color: rgb(29, 29, 29);

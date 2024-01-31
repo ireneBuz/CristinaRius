@@ -3,11 +3,15 @@
     box-shadow: -5px 0px 30px rgba(146, 146, 146, 0.6);
     border-radius: 20px;
     background-color: white;
+    max-width: 800px;
+    margin: 0 auto !important;
+    text-align: center;
 }
+
 
 .price-rate h3 {
     font-size: 40px;
-    padding-top: 130px;
+    padding-top: 60px;
     padding-left: 30px;
     font-weight: 700;
     color: rgb(29, 29, 29);
@@ -24,16 +28,13 @@
 .price-rate p {
     font-size: 25px;
     padding-top: 30px;
+    padding-bottom: 50px;
     padding-left: 30px;
     padding-right: 30px;
     color: rgb(59, 59, 59);
 }
 
-.price-rate img {
-    width: 100%;
-    border-bottom-left-radius: 20px;
-    border-top-left-radius: 20px;
-}
+
 
 .price-rate-img {
     padding: 0 !important;

@@ -86,7 +86,7 @@ const Navigation_copy = () => {
                                     onClick={closeMenu}
                                     role="menuitem"
                                 >
-                                    QUIENES SOMOS
+                                    SOBRE MI
                                 </a>
                             </li>
                             <li>

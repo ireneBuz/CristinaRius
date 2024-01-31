@@ -5,7 +5,7 @@ const Footer = () => {
     return (
         <>
             <div className="footer align-items-center justify-content-center">
-                <p className='company-name'>© 2023 INSTRUSTERIL S.L.</p>
+                <p className='company-name'>© 2024 Cristina Rius</p>
             </div>
         </>
     )
