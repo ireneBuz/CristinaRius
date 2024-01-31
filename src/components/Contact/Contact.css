@@ -1,0 +1,62 @@
+.contact-background {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #8BC5FF;
+    background-position: top;
+}
+
+.contact {
+    width: 100vw;
+    height: 500px;
+}
+
+
+.contact-title h1 {
+    margin-top: 70px;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 60px;
+    color: rgb(52, 52, 52);
+}
+
+.contact-title h2 {
+    margin-top: 30px;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 30px;
+}
+
+
+.contact-phone-icon,
+.contact-email-icon,
+.contact-whatsapp-icon {
+    width: 40px;
+    margin-right: 20px;
+}
+
+.contact a {
+    text-decoration: none;
+    color: rgb(24, 46, 104);
+}
+
+.btn img {
+    margin-right: 0px;
+    width: 25px;
+}
+
+
+@media screen and (max-width: 991px) {
+
+    .contact {
+        height: 400px;
+    }
+
+    .contact-title h1 {
+        margin-top: 50px;
+        font-size: 35px;
+    }
+
+    .contact-title h2 {
+        margin-top: 20px;
+        font-size: 20px;
+    }
+}
