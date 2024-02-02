@@ -10,7 +10,7 @@
 .hero-title h2 {
     font-family: 'Josefin Sans', sans-serif;
     font-weight: 700;
-    font-size: 42px;
+    font-size: 3vw;
     color: rgb(44, 44, 44);
 }
 
@@ -68,7 +68,7 @@
 .hero-logo h2 {
     font-family: 'Josefin Sans', sans-serif;
     font-weight: 200;
-    font-size: 30px;
+    /* font-size: 30px; */
 }
 
 .hero-logo button {
@@ -90,9 +90,9 @@
 
 @media screen and (max-width: 1275px) {
 
-    .hero-title h1 {
+    /* .hero-title h1 {
         font-size: 38px;
-    }
+    } */
 
     .hero-logo img {
         width: 530px;
@@ -104,9 +104,10 @@
         width: 440px;
     }
 
+    /* 
     .hero-title h1 {
         font-size: 32px;
-    }
+    } */
 }
 
 @media screen and (max-width: 991px) {
@@ -119,8 +120,9 @@
         text-align: center;
     }
 
-    .hero-title h1 {
-        font-size: 35px;
+    .hero-title h1,
+    .hero-title h2 {
+        font-size: 4.5vw;
     }
 
     .hero-title {
@@ -140,9 +142,9 @@
 
 
 @media screen and (max-height: 520px) {
-    .hero-title h1 {
+    /* .hero-title h1 {
         font-size: 28px;
-    }
+    } */
 
     .hero {
         padding-top: 180px;
@@ -162,11 +164,16 @@
 
 @media screen and (max-width: 500px) {
 
-    .hero-title h1 {
+    /* .hero-title h1 {
         font-size: 26px !important;
-    }
+    } */
 
     .hero {}
+
+    .hero-title h1,
+    .hero-title h2 {
+        font-size: 5vw;
+    }
 
     .hero-logo img {
         margin-top: 30px !important
@@ -205,9 +212,9 @@
         padding-top: 160px;
     }
 
-    .hero-title h1 {
+    /* .hero-title h1 {
         font-size: 26px !important
-    }
+    } */
 
 
 

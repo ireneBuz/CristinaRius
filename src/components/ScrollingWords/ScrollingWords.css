@@ -22,6 +22,7 @@
     -webkit-background-clip: text;
     background-clip: text;
     color: transparent;
+    font-size: 3vw;
 }
 
 
@@ -35,8 +36,13 @@
 
 
 @media screen and (max-width: 991px) {
-    .hero-title h1 {
+    /* .hero-title h1 {
         font-size: 35px;
+    } */
+
+    .scrolling-word p {
+
+        font-size: 2.8vw;
     }
 
     .hero-title {
@@ -46,15 +52,20 @@
 }
 
 @media screen and (max-width: 500px) {
-    .hero-title h1 {
+
+    /* .hero-title h1 {
         font-size: 28px;
+    } */
+    .scrolling-word p {
+
+        font-size: 4.5vw;
     }
 }
 
 @media screen and (max-width: 400px) {
-    .hero-title h1 {
+    /* .hero-title h1 {
         font-size: 24px;
-    }
+    } */
 }
 
 @media screen and (max-height: 680px) {
@@ -64,9 +75,9 @@
 }
 
 @media screen and (max-height: 520px) {
-    .hero-title h1 {
+    /* .hero-title h1 {
         font-size: 28px;
-    }
+    } */
 
     .hero {
         padding-top: 160px;
