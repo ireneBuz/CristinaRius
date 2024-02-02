@@ -4,7 +4,7 @@ import './ScrollingWords.css'
 
 
 const ScrollingWords = () => {
-    const words = ["Rapidez", "Precisión", "Calidad", "En Valencia"];
+    const words = ["Profesionalidad", "Cercanía", "Empatía"];
     const [currentWordIndex, setCurrentWordIndex] = useState(0);
 
     useEffect(() => {
