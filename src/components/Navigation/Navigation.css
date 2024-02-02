@@ -258,7 +258,8 @@
 
     .nav-head-link img {
         margin-top: 15px;
-
+        height: auto;
+        width: 150px;
     }
 
     .nav-head h2 {

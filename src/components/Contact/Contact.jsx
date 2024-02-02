@@ -25,11 +25,6 @@ const Contact = () => {
                                 <h1>Contacto</h1>
                                 <h2>
                                     <a href='https://api.whatsapp.com/send?phone=611851822'>
-                                        <img
-                                            src="/callIcon.png"
-                                            alt="Phone Icon"
-                                            className="contact-phone-icon"
-                                        />
                                         <a href='https://api.whatsapp.com/send?phone=611851822'> <img
                                             src="https://res.cloudinary.com/dbtmrinwa/image/upload/f_auto,q_auto/er26xxeyhz5bysgkvpgw"
                                             alt="Whatsapp Icon"
