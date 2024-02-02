@@ -39,15 +39,12 @@ const Navigation_copy = () => {
                         <Col xs="2" lg="3" className="text-start">
                             <div className="nav-head">
                                 <div className="nav-head-link d-flex">
-                                    <img
-                                        src="https://res.cloudinary.com/dbtmrinwa/image/upload/f_auto,q_auto/uzu2gdul3daxcgotqi5o"
-                                        alt="InstruSteril Logo"
-                                    />
-                                    <a href="#">
-                                        <h2 aria-label="InstruSteril">
-                                            <span>INSTRU</span>STERIL
-                                        </h2>
-                                    </a>
+                                    <a href="#"> <img
+                                        src="/logoCristina.png"
+                                        alt="Logo"
+                                    /></a>
+
+
                                 </div>
                             </div>
                         </Col>

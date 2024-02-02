@@ -9,7 +9,7 @@ const OurServices = () => {
                     <Col xs="12" lg="5" className="text-center" role="article">
                         <div className="services-img">
                             <img
-                                src="https://res.cloudinary.com/dbtmrinwa/image/upload/f_auto,q_auto/lborfgkjr5elvlowtgqo"
+                                src="/emotionalIcon.png"
                                 alt="Service Image"
                                 aria-label="Recogida"
                                 loading="lazy"
@@ -28,7 +28,7 @@ const OurServices = () => {
                     <Col xs="12" lg="5" className="text-center" role="article">
                         <div className="services-img">
                             <img
-                                src="https://res.cloudinary.com/dbtmrinwa/image/upload/f_auto,q_auto/qp3eptxlvswmjmk6crxo"
+                                src="/alimentaryIcon.png"
                                 alt="Service Image"
                                 aria-label="Revisión y Reposición"
                                 loading="lazy"
@@ -46,9 +46,9 @@ const OurServices = () => {
                     <Col xs="12" lg="5" className="text-center" role="article">
                         <div className="services-img">
                             <img
-                                src="https://res.cloudinary.com/dbtmrinwa/image/upload/f_auto,q_auto/lwrkbe7ckfw6udwst1xh"
-                                alt="Service Image"
-                                aria-label="Esterilizado y Empaquetado"
+                                src="/anxietyIcon.png"
+                                alt="Anxiety Image"
+                                aria-label="Anxiety"
                                 loading="lazy"
                             />
                         </div>
@@ -63,9 +63,9 @@ const OurServices = () => {
                     <Col xs="12" lg="5" className="text-center" role="article">
                         <div className="services-img">
                             <img
-                                src="https://res.cloudinary.com/dbtmrinwa/image/upload/f_auto,q_auto/gxxyznbssiusuz9o763x"
-                                alt="Service Image"
-                                aria-label="Entrega"
+                                src="/moreIcon.png"
+                                alt="Specialities Image"
+                                aria-label="Specialities"
                                 loading="lazy"
                             />
                         </div>

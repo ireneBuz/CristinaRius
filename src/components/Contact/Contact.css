@@ -4,36 +4,110 @@
     align-items: center;
     background-color: #8BC5FF;
     background-position: top;
+
 }
 
 .contact {
+    display: flex;
     width: 100vw;
-    height: 500px;
+}
+
+.map-pin {
+    position: absolute;
+    width: 150px;
+    height: 150px;
+    background: url('/mapsIcon.png') no-repeat;
+    background-size: contain;
+    cursor: pointer;
+    display: none;
+    top: 40%;
+    left: 45%;
+    z-index: 1;
+    opacity: 0;
+    transition: opacity 0.3s ease, background-color 0.5s ease;
+}
+
+.map:hover .map-pin {
+    opacity: 1;
+}
+
+&:hover .map-pin {
+    display: block;
+}
+
+&:hover .map-pin:hover {
+    background-color: transparent;
 }
 
 
+
+.map {
+    position: relative;
+    overflow: hidden;
+    width: 100vw;
+    padding: 0 !important;
+}
+
+.map img {
+    max-width: 110vw;
+    height: auto;
+    transition: filter 0.3s ease
+}
+
+.map:hover img {
+    filter: blur(4px);
+}
+
+
+.map:hover::after {
+    content: url('/mapsIcon.png') no-repeat center center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: url('/mapsIcon.png') no-repeat center center;
+    background-size: contain;
+    width: 60px;
+    height: 60px;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1;
+    transition: background-color 0.3s ease;
+}
+
+
+.map:hover::after:hover {
+    background-color: #ddd;
+}
+
 .contact-title h1 {
-    margin-top: 70px;
+    margin-top: 50px;
     font-family: 'Josefin Sans', sans-serif;
     font-size: 60px;
     color: rgb(52, 52, 52);
 }
 
 .contact-title h2 {
-    margin-top: 30px;
+    margin-top: 20px;
     font-family: 'Josefin Sans', sans-serif;
-    font-size: 30px;
+    font-size: 25px;
 }
 
 
 .contact-phone-icon,
 .contact-email-icon,
-.contact-whatsapp-icon {
-    width: 40px;
+.contact-whatsapp-icon,
+.contact-direction-icon,
+.contact-train-icon,
+.contact-bus-icon {
+    width: 30px;
     margin-right: 20px;
 }
 
 .contact a {
+    font-size: 20px;
     text-decoration: none;
     color: rgb(24, 46, 104);
 }
@@ -46,9 +120,17 @@
 
 @media screen and (max-width: 991px) {
 
-    .contact {
-        height: 400px;
+    .map {
+        padding-top: 30px !important;
     }
+
+    .map-pin {
+        position: absolute;
+        top: 50%;
+        left: 45%;
+        width: 100px;
+    }
+
 
     .contact-title h1 {
         margin-top: 50px;

@@ -30,27 +30,27 @@ const Hero = () => {
                                         <ContactForm />
                                     </Modal.Body>
                                 </Modal>
-                                <button onClick={openModal} >
-                                    <img src="public/whatsappIcon.png" alt="whatsappIcon" />
+                                <a href="tel:+34611851822">
+                                    <img src="/whatsappIcon.png" alt="whatsappIcon" />
                                     611 851 822
-                                </button>
+                                </a>
                             </div>
 
                         </Col>
                         <Col xs="11" lg="6" className="hero-title">
                             <section className="hero-logo" aria-label="Hero Logo">
                                 <img
-                                    src="https://res.cloudinary.com/dbtmrinwa/image/upload/f_auto,q_auto/t7zngvn1iwu1hdjw012o"
-                                    alt="InstruSteril Background"
-                                    className="big-image"
+                                    src="/photoHeroCristina.jpg"
+                                    alt="photo hero"
+                                    className="hero-image"
                                 />
-                                <img
+                                {/* <img
                                     src="https://res.cloudinary.com/dbtmrinwa/image/upload/f_auto,q_auto/b1fo8gmzrwrlg7kuzwuq"
                                     alt="Alternate Photo"
                                     role="img"
                                     aria-label="Alternate Photo"
                                     className="small-image"
-                                />
+                                /> */}
 
                             </section>
 
