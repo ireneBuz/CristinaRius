@@ -3,4 +3,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://instrusteril.es/sitemap.xml
+Sitemap: https://cristinariuspsicologa.es//sitemap.xml
